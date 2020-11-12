@@ -1,6 +1,6 @@
 {
   "name": "vue-detached-scrollbar",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "A simple scrollbar that can be detached from a main container",
   "repository": {
     "type": "git",
@@ -13,8 +13,8 @@
   "main": "./dist/index.js",
   "author": "Ozan Gulle",
   "license": "MIT",
-  "dependencies": {
-    "vue": "^2.1.10"
+  "peerDependencies": {
+    "vue": "^3.0.2"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -40,7 +40,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 15.0.0",
+    "npm": ">= 6.0.0"
   }
 }
